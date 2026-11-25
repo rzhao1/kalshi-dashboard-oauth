@@ -1,0 +1,9 @@
+{
+  "client_id": "https://rzhao1.github.io/kalshi-dashboard-oauth/client.json",
+  "client_name": "Kalshi Private Portfolio Dashboard",
+  "redirect_uris": ["https://kalshi-desk-rz.randyzhao.chatgpt.site/api/kalshi/callback"],
+  "grant_types": ["authorization_code", "refresh_token"],
+  "response_types": ["code"],
+  "token_endpoint_auth_method": "none",
+  "scope": "read::mcp_portfolio"
+}
